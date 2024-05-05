@@ -1,0 +1,87 @@
+/* style.css */
+
+@font-face {
+    font-family: 'Ancient-Medium';
+    src: url('font/Ancient\ Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cardinal-Alternate';
+    src: url('font/Cardinal-Alternate.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cardinal';
+    src: url('font/Cardinal.ttf') format('truetype');
+}
+
+body{
+    background-image: url(image/background_to_webside_.mp4);
+    overflow: hidden;
+}
+
+#yxyl_animation{
+    display: block;
+    margin:10vh auto 0;
+    width: 15vw;
+}
+
+#yxyl_animation_smaller{
+    display: block;
+    margin:5vh auto 5vh;
+    width: 5vw;
+
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+#header a{
+    text-decoration: none;
+}
+   
+#header h1{
+    color: #FFF;
+    text-align: center;
+    display: block;
+    margin-top: 175px;
+    font-size: 100px;
+    font-family: 'Cardinal', sans-serif;
+    font-weight: 24;
+    filter: drop-shadow(0px 0px 7px #ff0000);
+    transition: all 0.75s ease-in-out;
+    scale: 0.5;
+}
+
+#header h1:hover{
+    color: #ff9e9e;
+    scale: 1.1;
+    filter: drop-shadow(0px 0px 15px #ff0000);
+}
+
+iframe{
+    margin: 0 auto;
+    border: -0;
+    display: block;
+    height: 80vh;
+    width: 92vw;
+    scale: 0.9;
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    color: #FFF;
+    bottom: 2vh;
+    width: 100vw;
+    display: block;
+}
